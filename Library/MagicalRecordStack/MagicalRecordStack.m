@@ -164,7 +164,7 @@ static MagicalRecordStack *defaultStack;
 {
     NSString *notificationName = nil;
 #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
-    notificationName = UIApplicationWillTerminateNotification;
+    notificationName = @"";//UIApplicationWillTerminateNotification;
 #elif TARGET_OS_MAC
     notificationName = NSApplicationWillTerminateNotification;
 #endif
@@ -192,7 +192,7 @@ static MagicalRecordStack *defaultStack;
 {
     NSString *notificationName = nil;
 #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
-    notificationName = UIApplicationWillTerminateNotification;
+    notificationName = @"";//UIApplicationWillTerminateNotification;
 #elif TARGET_OS_MAC
     notificationName = NSApplicationWillTerminateNotification;
 #endif

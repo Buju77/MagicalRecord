@@ -423,12 +423,13 @@
 
 - (void)setWorkingName:(NSString *)workingName
 {
-    return [self MR_setWorkingName:workingName];
+//    return [self MR_setWorkingName:workingName];
 }
 
 - (NSString *)workingName
 {
-    return [self MR_workingName];
+//    return [self MR_workingName];
+    return @"";
 }
 
 @end
